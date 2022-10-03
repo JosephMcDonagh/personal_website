@@ -3,15 +3,37 @@ body {
     background-color: #d3f2d5;
     font-family: arial
 }
+
 img {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    
 }
+
 section {
     display: flex;
-    margin:auto
+    align-items: flex-start;
+    margin:auto;
+   
+}
+
+#border {
+    border: 1em;
+    border-style: groove;
+    text-align: center;
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 0%;
+    margin-top:0%;
+    color: white;
+    background-color: black;
+    border-color: grey;
+    border-radius: 10%;
+    position: fixed;
+    
+
+    
+
 }
 
 .flex-1 {
@@ -19,7 +41,7 @@ section {
 }
 
 .flex-2 {
-    flex:4
+    flex:4;
 }
 
 .sep-line {

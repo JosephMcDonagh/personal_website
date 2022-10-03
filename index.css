@@ -1,0 +1,38 @@
+
+body {
+    background-color: #d3f2d5;
+    font-family: arial
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+section {
+    display: flex;
+    margin:auto
+}
+
+.flex-1 {
+    flex:1
+}
+
+.flex-2 {
+    flex:4
+}
+
+.sep-line {
+    height: 5px ; 
+    color:rgb(144, 82, 139);
+     background-color: rgb(144, 82, 139)
+}
+
+.centered {
+    text-align: center;
+}
+
+#opening-para {
+    font-family: Georgia;
+    text-align: center;
+}

@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     margin: 0.5em;
+    text-decoration: wavy;
 }
 
 h3 {
@@ -36,6 +37,16 @@ img {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+ol {
+    padding-left: 1em;
+    list-style-position: inside;
+}
+
+ul {
+    padding-left: 3em;
 }
 
 section {
@@ -73,12 +84,10 @@ section {
 }
 
 
-.flex-1 {
-    flex:1;
-}
+
 
 .flex-2 {
-    flex:3;
+    flex:1;
 }
 
 .sep-line {
@@ -109,6 +118,7 @@ section {
 
 .THG-pic{
     width: 340px;
+    
 }
 
 #extra-border {
@@ -121,3 +131,13 @@ section {
 #caption {
     margin:0.25em;
 }
+
+#joe_pic {
+    margin-left: 1em;
+}
+
+.new-pg-headers {
+    text-align: center;
+    text-decoration: underline;
+}
+

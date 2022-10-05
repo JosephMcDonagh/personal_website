@@ -141,3 +141,124 @@ section {
     text-decoration: underline;
 }
 
+.b-r{
+    background-color: #fe0002;
+    border-style: none solid solid none;
+    border-color: black;  
+    border-width: 5px;
+}
+
+.b-2 {
+    border-style: none solid solid solid;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+.b-3 {
+    border-style: none none solid none;
+    border-color: black; 
+    border-width: 5px;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+}
+
+.b-4 {
+    border-style: none solid solid none;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+.b-5 {
+    border-style: none none solid none;
+    border-color: black; 
+    border-width: 5px;
+    grid-column: 3 / span 2;
+    grid-row: 2;
+}
+
+.b-y{
+    background-color: #fed44b;
+    border-style: none solid solid solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.b-6 {
+    border-style: none none solid none;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+
+.b-b {
+    background-color: #075085;
+    border-style: none none solid solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.b-7 {
+    border-style: none solid none none;
+    border-color: black; 
+    border-width: 5px; 
+    grid-column: 1;
+    grid-row: 4/ span 2;
+}
+
+.b-8 {
+    border-style: none solid solid solid;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+.b-9 {
+    border-style: none none solid none;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+.b-10 {
+    border-style: none none none solid;
+    border-color: black; 
+    border-width: 5px; 
+    grid-column: 4;
+    grid-row: 4/ span 2;
+}
+
+.b-11 {
+    border-style: none solid none solid;
+    border-color: black; 
+    border-width: 5px;  
+}
+
+.art-outline {
+    width: 329px;
+    height: 329px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: [c1] 141px [c2] 46px [c3] 81px [c4] 61px;
+    grid-template-rows: [r1] 115px [c2] 60px [c3] 84px [c4] 49px [c5] 21px;
+    margin: 1em;
+}
+
+#piet-art {
+    margin: 1em;
+}
+
+.art-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#art-para {
+    margin:2em;
+    font-size: 1.15em;
+}
+
+#scroll-msg {
+    font-size: 1.5em;
+}
+
+#final-word {
+    font-size: 3em;
+}

@@ -3,7 +3,7 @@ name: Release for personal website V1
 on:
   push:
     tags:
-      - "release/v1"
+      - "release/v3"
 jobs:
   build:
     runs-on: ubuntu-latest
